@@ -1,4 +1,4 @@
-class Punto2D(object):
+class Punto2D:
     """description of class"""
     #miembros
 
@@ -17,7 +17,7 @@ class Punto2D(object):
         self.y=0.0
     
     def __str__(self):
-        return super().__str__(**kwargs)
+        return "X=" +str(self.x)+ " Y="+str(self.y)
     
         
 

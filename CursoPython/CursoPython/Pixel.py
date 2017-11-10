@@ -1,16 +1,5 @@
 class Pixel(Punto2D):
-    """description of class"""
-
-    #miembros
-
-    color=""
-
-    #constructor
-
-def __init__(self,x,y,color):
-    # llamamos al constructor de Punto2D
-    Punto2D.__init__(self,x,y)
-
-    # agregamos el nuevo atributo
-    self.color=color
-
+    def _(args):
+    
+    def __str__(self):
+        return "%s , Color=%s "%Punto2D.__str__(),self.color

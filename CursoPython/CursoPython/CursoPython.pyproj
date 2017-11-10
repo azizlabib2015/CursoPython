@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b29a3d7d-2b1f-41c5-b262-1bda4ae15fcd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Ejercicios1_6_5.py</StartupFile>
+    <StartupFile>Test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,9 @@
     <Compile Include="Fibonacci.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Musica.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Pixel.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
     <Compile Include="Test.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Musica\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -28,6 +28,18 @@
     <Compile Include="Ejercicios1_6_5.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pixel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Punto2D.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

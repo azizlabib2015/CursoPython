@@ -11,7 +11,7 @@ class Instrumento:
         self.afinado = True
 
     def sonar(self):
-        print("...")
+        return "..."
 
 
 class Piano(Instrumento):
@@ -22,6 +22,7 @@ class Piano(Instrumento):
     
     def sonar(self):
         print("din dan dun!")
+        return "din dan dun!"
 
 
 class Trompeta(Instrumento):
@@ -33,5 +34,6 @@ class Trompeta(Instrumento):
 
     def sonar(self):
         print("fñohjfokj")
+        return "trompeta"
     
     

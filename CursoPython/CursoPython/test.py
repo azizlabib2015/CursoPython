@@ -1,6 +1,8 @@
 #import Fibonacci
 #from Pixel import Pixel
-import Musica
+from Musica.Musica import *
+from Ejercicios1_8_6.ejercicios import *
+import io
 
 #print (Fibonacci.succesionFibonacci(8))
 
@@ -10,7 +12,16 @@ import Musica
 #print(p)
 
 
-piano=Piano("Casio","Cuerda Percutida",1656,"Madera",True,88,False)
-trompeta=Trompeta("Yamaha","Viento",1609,"Laton",True,"Bb",True)
-piano.sonar()
-trompeta.sonar()
+#piano=Piano("Casio","Cuerda Percutida",1656,"Madera",True,88,False)
+#trompeta=Trompeta("Yamaha","Viento",1609,"Laton",True,"Bb",True)
+#a=str(piano.sonar())+"\n"
+#a+=str(trompeta.sonar())+"\n"
+data=imprimeAgenda()
+
+file=open("Ejercicios1_8_6/agenda.txt","w")
+file.write(data)
+file.close()
+
+file=open("Ejercicios1_8_6/agenda.txt","r")
+print(file.read())
+file.close()

@@ -28,15 +28,6 @@
     <Compile Include="Ejercicios1_6_5.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Ejercicios1_8_6\ejercicios.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Ejercicios1_8_6\Ejercicios1_8_6\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="EjerciciosRepaso\funciones.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Fibonacci.py">
       <SubType>Code</SubType>
     </Compile>
@@ -55,11 +46,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ejercicios1_8_6\Ejercicios1_8_6\" />
     <Folder Include="Musica\" />
     <Folder Include="Ejercicios1_7_6\" />
-    <Folder Include="Ejercicios1_8_6\" />
-    <Folder Include="EjerciciosRepaso\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
